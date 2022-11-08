@@ -61,7 +61,6 @@
   flex-direction: column;
   justify-content: center;
   height: 300px;
-  overflow: scroll;
   background-color: var(--Dark-Grayish-Blue);
   margin: 20vh 0;
   border-radius: 10px;
@@ -75,6 +74,7 @@
 
 .container p{
   text-align: center;
+  overflow: scroll;
   font-size: 1.3rem;
   margin: 15px;
   color: var(--Light-Cyan);
@@ -119,7 +119,7 @@
   }
 
   .button-container{
-    top: 75%;
+    top: 70%;
   }
 }
 
