@@ -60,9 +60,9 @@ function App() {
         <div className="separator">
           <img src={separator} alt="" />
         </div>
-      </div>
-      <div className="button-container">
-        <button onClick={jokeAPI}><img src={button} alt="button" /></button>
+          <div className="button-container">
+            <button onClick={jokeAPI}><img src={button} alt="button" /></button>
+          </div>
       </div>
     </div>
   );
